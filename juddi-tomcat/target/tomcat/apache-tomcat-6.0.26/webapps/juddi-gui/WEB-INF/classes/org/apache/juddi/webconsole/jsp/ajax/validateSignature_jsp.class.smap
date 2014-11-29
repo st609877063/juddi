@@ -1,0 +1,11 @@
+SMAP
+validateSignature_jsp.java
+JSP
+*S JSP
+*F
++ 0 validateSignature.jsp
+ajax/validateSignature.jsp
+*L
+5,13:63
+19,42:77
+*E

@@ -1,0 +1,18 @@
+SMAP
+importFromWsdl_jsp.java
+JSP
+*S JSP
+*F
++ 0 importFromWsdl.jsp
+ajax/importFromWsdl.jsp
++ 1 csrf.jsp
+ajax/../csrf.jsp
+*L
+5,23:81
+5#1,6:103
+12,65:110
+76:175
+27#0:176
+29,146:178
+174:324
+*E

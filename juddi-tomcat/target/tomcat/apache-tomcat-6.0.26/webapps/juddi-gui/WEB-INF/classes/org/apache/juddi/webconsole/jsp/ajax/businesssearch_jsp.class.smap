@@ -1,0 +1,22 @@
+SMAP
+businesssearch_jsp.java
+JSP
+*S JSP
+*F
++ 0 businesssearch.jsp
+ajax/businesssearch.jsp
++ 1 csrf.jsp
+ajax/../csrf.jsp
+*L
+5,8:64
+5#1,6:71
+12,65:78
+76:143
+12#0:144
+15,44:147
+58,2:191
+60:193,3
+61:196
+62,2:197,3
+64,2:203
+*E

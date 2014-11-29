@@ -1,0 +1,21 @@
+SMAP
+bindingsearch_jsp.java
+JSP
+*S JSP
+*F
++ 0 bindingsearch.jsp
+ajax/bindingsearch.jsp
++ 1 csrf.jsp
+ajax/../csrf.jsp
+*L
+5,8:64
+5#1,6:71
+12,65:78
+76:143
+12#0,42:144
+53,2:186
+55:188,3
+56:191
+57,2:192,3
+59,2:198
+*E

@@ -1,0 +1,11 @@
+SMAP
+deletebinding_jsp.java
+JSP
+*S JSP
+*F
++ 0 deletebinding.jsp
+ajax/deletebinding.jsp
+*L
+5,7:55
+13,10:63
+*E

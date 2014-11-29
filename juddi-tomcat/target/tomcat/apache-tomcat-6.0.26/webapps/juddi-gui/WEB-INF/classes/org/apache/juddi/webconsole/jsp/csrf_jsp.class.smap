@@ -1,0 +1,12 @@
+SMAP
+csrf_jsp.java
+JSP
+*S JSP
+*F
++ 0 csrf.jsp
+csrf.jsp
+*L
+5,6:55
+12,65:62
+76:127
+*E

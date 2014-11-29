@@ -1,0 +1,17 @@
+SMAP
+deletebusiness_jsp.java
+JSP
+*S JSP
+*F
++ 0 deletebusiness.jsp
+ajax/deletebusiness.jsp
++ 1 csrf.jsp
+ajax/../csrf.jsp
+*L
+5,6:61
+5#1,6:66
+12,65:73
+76:138
+10#0:139
+12,9:141
+*E

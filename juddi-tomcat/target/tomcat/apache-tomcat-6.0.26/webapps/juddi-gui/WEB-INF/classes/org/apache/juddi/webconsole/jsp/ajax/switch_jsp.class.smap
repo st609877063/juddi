@@ -1,0 +1,16 @@
+SMAP
+switch_jsp.java
+JSP
+*S JSP
+*F
++ 0 switch.jsp
+ajax/switch.jsp
++ 1 csrf.jsp
+ajax/../csrf.jsp
+*L
+5,9:65
+5#1,6:73
+12,65:80
+76:145
+13#0,34:146
+*E

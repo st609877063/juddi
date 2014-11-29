@@ -1,0 +1,11 @@
+SMAP
+savebinding_jsp.java
+JSP
+*S JSP
+*F
++ 0 savebinding.jsp
+ajax/savebinding.jsp
+*L
+5,7:55
+13,10:63
+*E

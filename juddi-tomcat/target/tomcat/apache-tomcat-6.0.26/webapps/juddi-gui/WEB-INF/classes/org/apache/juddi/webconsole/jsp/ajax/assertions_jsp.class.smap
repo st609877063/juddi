@@ -1,0 +1,17 @@
+SMAP
+assertions_jsp.java
+JSP
+*S JSP
+*F
++ 0 assertions.jsp
+ajax/assertions.jsp
+*L
+5,15:63
+19:77,2
+21,31:80
+51,2:111
+53,5:113,3
+58,2:128
+62,47:133
+108,6:180
+*E

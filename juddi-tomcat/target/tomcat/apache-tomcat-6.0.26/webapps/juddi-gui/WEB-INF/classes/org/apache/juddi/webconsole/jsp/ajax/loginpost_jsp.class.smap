@@ -1,0 +1,17 @@
+SMAP
+loginpost_jsp.java
+JSP
+*S JSP
+*F
++ 0 loginpost.jsp
+ajax/loginpost.jsp
++ 1 csrf.jsp
+ajax/../csrf.jsp
+*L
+5,11:67
+5#1,6:77
+12,65:84
+76:149
+15#0,68:150
+82:218
+*E

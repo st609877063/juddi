@@ -1,0 +1,17 @@
+SMAP
+saveservicedetails_jsp.java
+JSP
+*S JSP
+*F
++ 0 saveservicedetails.jsp
+ajax/saveservicedetails.jsp
++ 1 csrf.jsp
+ajax/../csrf.jsp
+*L
+5,6:62
+5#1,6:67
+12,65:74
+76:139
+10#0,2:140
+13,10:143
+*E

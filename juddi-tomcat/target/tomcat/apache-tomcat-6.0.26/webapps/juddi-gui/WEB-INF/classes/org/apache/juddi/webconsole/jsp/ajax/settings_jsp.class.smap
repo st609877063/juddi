@@ -1,0 +1,17 @@
+SMAP
+settings_jsp.java
+JSP
+*S JSP
+*F
++ 0 settings.jsp
+ajax/settings.jsp
++ 1 csrf.jsp
+ajax/../csrf.jsp
+*L
+5,9:65
+5#1,6:73
+12,65:80
+76:145
+13#0:146
+15,48:148
+*E

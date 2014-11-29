@@ -1,0 +1,12 @@
+SMAP
+acceptTransferToken_jsp.java
+JSP
+*S JSP
+*F
++ 0 acceptTransferToken.jsp
+ajax/acceptTransferToken.jsp
+*L
+5,17:65
+21:81,2
+23,25:84
+*E

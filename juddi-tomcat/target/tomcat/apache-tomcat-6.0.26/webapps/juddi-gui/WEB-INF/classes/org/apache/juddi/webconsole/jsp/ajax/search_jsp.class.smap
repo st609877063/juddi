@@ -1,0 +1,17 @@
+SMAP
+search_jsp.java
+JSP
+*S JSP
+*F
++ 0 search.jsp
+ajax/search.jsp
++ 1 csrf.jsp
+ajax/../csrf.jsp
+*L
+5,8:63
+5#1,6:70
+12,65:77
+76:142
+12#0:143
+14,72:145
+*E

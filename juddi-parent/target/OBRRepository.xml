@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<repository lastmodified="20141129171643.212" name="MyRepository">
+<resource id="org.apache.juddi.uddi-ws/3.2.1.SNAPSHOT" presentationname="UDDIv2 and v3 WS Stubs and Schema Bindings Generated from WSDL" symbolicname="org.apache.juddi.uddi-ws" uri="/C:/Users/MJTX/.m2/repository/org/apache/juddi/uddi-ws/3.2.1-SNAPSHOT/uddi-ws-3.2.1-SNAPSHOT.jar" version="3.2.1.SNAPSHOT">
+<description>jUDDI (pronounced "Judy") is an open source Java		implementation of the Universal Description, Discovery, and		Integration (UDDI) specification for Web Services.</description>
+<size>407226</size>
+<documentation>http://www.apache.org/</documentation>
+<license>http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+<category id="org.apache.juddi"/>
+<capability name="bundle">
+<p n="manifestversion" v="2"/>
+<p n="presentationname" v="UDDIv2 and v3 WS Stubs and Schema Bindings Generated from WSDL"/>
+<p n="symbolicname" v="org.apache.juddi.uddi-ws"/>
+<p n="version" t="version" v="3.2.1.SNAPSHOT"/>
+</capability>
+<capability name="package">
+<p n="package" v="org.apache.juddi.api_v3"/>
+<p n="uses" v="javax.xml.bind.annotation,javax.xml.datatype,org.uddi.api_v3,javax.xml.bind,javax.xml.namespace,org.w3._2000._09.xmldsig_,org.uddi.sub_v3"/>
+<p n="version" t="version" v="0.0.0"/>
+</capability>
+<capability name="package">
+<p n="package" v="org.apache.juddi.api_v3.rest"/>
+<p n="uses" v="javax.xml.bind.annotation"/>
+<p n="version" t="version" v="0.0.0"/>
+</capability>
+<capability name="package">
+<p n="package" v="org.apache.juddi"/>
+<p n="uses" v="javax.xml.bind.annotation,javax.xml.bind,javax.xml.namespace"/>
+<p n="version" t="version" v="0.0.0"/>
+</capability>
+<capability name="package">
+<p n="package" v="org.apache.juddi.jaxb"/>
+<p n="uses" v="org.apache.commons.logging,javax.xml.bind,javax.xml.namespace,org.w3c.dom"/>
+<p n="version" t="version" v="0.0.0"/>
+</capability>
+<capability name="package">
+<p n="package" v="org.apache.juddi.v3_service"/>
+<p n="uses" v="org.uddi.custody_v3,org.uddi.api_v3,org.uddi.repl_v3,org.w3._2000._09.xmldsig_,javax.jws,org.apache.juddi.api_v3,org.uddi.sub_v3,org.uddi.v3_service,javax.jws.soap,javax.xml.bind.annotation,org.uddi.policy_v3,org.uddi.policy_v3_instanceparms,javax.xml.ws"/>
+<p n="version" t="version" v="0.0.0"/>
+</capability>
+<capability name="package">
+<p n="package" v="org.uddi.api_v2"/>
+<p n="uses" v="javax.xml.bind.annotation,javax.xml.bind,org.w3c.dom,org.uddi,javax.xml.namespace"/>
+<p n="version" t="version" v="0.0.0"/>
+</capability>
+<capability name="package">
+<p n="package" v="org.uddi.api_v3"/>
+<p n="uses" v="javax.xml.bind.annotation,org.w3._2000._09.xmldsig_,javax.xml.bind,org.w3c.dom,org.uddi,javax.xml.namespace,javax.xml.datatype"/>
+<p n="version" t="version" v="0.0.0"/>
+</capability>
+<capability name="package">
+<p n="package" v="org.uddi.custody_v3"/>
+<p n="uses" v="javax.xml.bind.annotation,javax.xml.bind,javax.xml.namespace,javax.xml.datatype"/>
+<p n="version" t="version" v="0.0.0"/>
+</capability>
+<capability name="package">
+<p n="package" v="org.uddi"/>
+<p n="uses" v="org.apache.commons.logging,javax.xml.bind"/>
+<p n="version" t="version" v="0.0.0"/>
+</capability>
+<capability name="package">
+<p n="package" v="org.uddi.policy_v3"/>
+<p n="uses" v="javax.xml.bind.annotation,javax.xml.bind,javax.xml.namespace,org.w3._2000._09.xmldsig_"/>
+<p n="version" t="version" v="0.0.0"/>
+</capability>
+<capability name="package">
+<p n="package" v="org.uddi.policy_v3_instanceparms"/>
+<p n="uses" v="javax.xml.bind.annotation,javax.xml.bind,javax.xml.namespace"/>
+<p n="version" t="version" v="0.0.0"/>
+</capability>
+<capability name="package">
+<p n="package" v="org.uddi.repl_v3"/>
+<p n="uses" v="javax.xml.bind.annotation,javax.xml.datatype,org.uddi.api_v3,org.w3._2000._09.xmldsig_,javax.xml.bind,javax.xml.namespace,org.uddi.custody_v3"/>
+<p n="version" t="version" v="0.0.0"/>
+</capability>
+<capability name="package">
+<p n="package" v="org.uddi.subr_v3"/>
+<p n="uses" v="org.uddi.sub_v3,javax.xml.bind.annotation,javax.xml.bind,javax.xml.namespace"/>
+<p n="version" t="version" v="0.0.0"/>
+</capability>
+<capability name="package">
+<p n="package" v="org.uddi.sub_v3"/>
+<p n="uses" v="javax.xml.bind.annotation,javax.xml.datatype,javax.xml.bind,javax.xml.namespace,org.uddi.api_v3"/>
+<p n="version" t="version" v="0.0.0"/>
+</capability>
+<capability name="package">
+<p n="package" v="org.uddi.v2_service"/>
+<p n="uses" v="org.apache.commons.logging,org.uddi.api_v2,javax.xml.soap,javax.xml.bind,org.w3c.dom,javax.xml.ws,javax.xml.ws.soap,javax.jws.soap,javax.jws,javax.xml.bind.annotation"/>
+<p n="version" t="version" v="0.0.0"/>
+</capability>
+<capability name="package">
+<p n="package" v="org.uddi.v3_service"/>
+<p n="uses" v="org.uddi.api_v3,org.apache.commons.logging,javax.xml.soap,javax.xml.bind,org.w3c.dom,javax.xml.ws,javax.xml.ws.soap,org.uddi.custody_v3,org.uddi.repl_v3,org.w3._2000._09.xmldsig_,javax.jws,org.uddi.sub_v3,org.uddi.vs_v3,org.uddi.subr_v3,javax.xml.datatype,javax.jws.soap,javax.xml.bind.annotation,org.uddi.policy_v3,org.uddi.vscache_v3,org.uddi.policy_v3_instanceparms"/>
+<p n="version" t="version" v="0.0.0"/>
+</capability>
+<capability name="package">
+<p n="package" v="org.uddi.vscache_v3"/>
+<p n="uses" v="javax.xml.bind.annotation,javax.xml.bind,javax.xml.namespace"/>
+<p n="version" t="version" v="0.0.0"/>
+</capability>
+<capability name="package">
+<p n="package" v="org.uddi.vs_v3"/>
+<p n="uses" v="javax.xml.bind.annotation,javax.xml.bind,javax.xml.namespace,org.uddi.api_v3"/>
+<p n="version" t="version" v="0.0.0"/>
+</capability>
+<capability name="package">
+<p n="package" v="org.w3._2000._09.xmldsig_"/>
+<p n="uses" v="javax.xml.bind.annotation,javax.xml.bind.annotation.adapters,javax.xml.bind,javax.xml.namespace"/>
+<p n="version" t="version" v="0.0.0"/>
+</capability>
+<require extend="false" filter="(&amp;(package=javax.jws)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.jws</require>
+<require extend="false" filter="(&amp;(package=javax.jws.soap)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.jws.soap</require>
+<require extend="false" filter="(&amp;(package=javax.xml.bind)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.xml.bind</require>
+<require extend="false" filter="(&amp;(package=javax.xml.bind.annotation)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.xml.bind.annotation</require>
+<require extend="false" filter="(&amp;(package=javax.xml.bind.annotation.adapters)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.xml.bind.annotation.adapters</require>
+<require extend="false" filter="(&amp;(package=javax.xml.datatype)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.xml.datatype</require>
+<require extend="false" filter="(&amp;(package=javax.xml.namespace)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.xml.namespace</require>
+<require extend="false" filter="(&amp;(package=javax.xml.soap)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.xml.soap</require>
+<require extend="false" filter="(&amp;(package=javax.xml.ws)(version&gt;=2.2.0))" multiple="false" name="package" optional="false">Import package javax.xml.ws ;version=2.2.0</require>
+<require extend="false" filter="(&amp;(package=javax.xml.ws.soap)(version&gt;=2.2.0))" multiple="false" name="package" optional="false">Import package javax.xml.ws.soap ;version=2.2.0</require>
+<require extend="false" filter="(&amp;(package=org.apache.commons.logging)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.commons.logging</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.api_v3)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.api_v3</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.api_v3.rest)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.api_v3.rest</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.jaxb)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.jaxb</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.v3_service)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.v3_service</require>
+<require extend="false" filter="(&amp;(package=org.uddi)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.uddi</require>
+<require extend="false" filter="(&amp;(package=org.uddi.api_v2)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.uddi.api_v2</require>
+<require extend="false" filter="(&amp;(package=org.uddi.api_v3)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.uddi.api_v3</require>
+<require extend="false" filter="(&amp;(package=org.uddi.custody_v3)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.uddi.custody_v3</require>
+<require extend="false" filter="(&amp;(package=org.uddi.policy_v3)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.uddi.policy_v3</require>
+<require extend="false" filter="(&amp;(package=org.uddi.policy_v3_instanceparms)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.uddi.policy_v3_instanceparms</require>
+<require extend="false" filter="(&amp;(package=org.uddi.repl_v3)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.uddi.repl_v3</require>
+<require extend="false" filter="(&amp;(package=org.uddi.sub_v3)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.uddi.sub_v3</require>
+<require extend="false" filter="(&amp;(package=org.uddi.subr_v3)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.uddi.subr_v3</require>
+<require extend="false" filter="(&amp;(package=org.uddi.v2_service)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.uddi.v2_service</require>
+<require extend="false" filter="(&amp;(package=org.uddi.v3_service)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.uddi.v3_service</require>
+<require extend="false" filter="(&amp;(package=org.uddi.vs_v3)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.uddi.vs_v3</require>
+<require extend="false" filter="(&amp;(package=org.uddi.vscache_v3)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.uddi.vscache_v3</require>
+<require extend="false" filter="(&amp;(package=org.w3._2000._09.xmldsig_)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.w3._2000._09.xmldsig_</require>
+<require extend="false" filter="(&amp;(package=org.w3c.dom)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.w3c.dom</require>
+</resource>
+<resource id="org.apache.juddi.uddi-tck-base/3.2.1.SNAPSHOT" presentationname="UDDI Technical Compatibility Kit (TCK) Base" symbolicname="org.apache.juddi.uddi-tck-base" uri="/C:/Users/MJTX/.m2/repository/org/apache/juddi/uddi-tck-base/3.2.1-SNAPSHOT/uddi-tck-base-3.2.1-SNAPSHOT.jar" version="3.2.1.SNAPSHOT">
+<description>jUDDI (pronounced "Judy") is an open source Java		implementation of the Universal Description, Discovery, and		Integration (UDDI) specification for Web Services.</description>
+<size>227107</size>
+<documentation>http://www.apache.org/</documentation>
+<license>http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+<category id="org.apache.juddi"/>
+<capability name="bundle">
+<p n="manifestversion" v="2"/>
+<p n="presentationname" v="UDDI Technical Compatibility Kit (TCK) Base"/>
+<p n="symbolicname" v="org.apache.juddi.uddi-tck-base"/>
+<p n="version" t="version" v="3.2.1.SNAPSHOT"/>
+</capability>
+<capability name="package">
+<p n="package" v="org.apache.juddi.v2.tck"/>
+<p n="uses" v="org.apache.commons.logging,org.uddi.api_v2,junit.framework,org.uddi.v2_service,org.junit,org.apache.juddi.jaxb,javax.xml.bind,org.apache.juddi.v3.tck,javax.xml.ws"/>
+<p n="version" t="version" v="0.0.0"/>
+</capability>
+<capability name="package">
+<p n="package" v="org.apache.juddi.v3.tck"/>
+<p n="uses" v="org.uddi.api_v3,org.apache.commons.logging,junit.framework,org.apache.juddi.jaxb,org.junit,org.uddi.v3_service,javax.xml.transform.dom,org.w3c.dom,javax.xml.transform,javax.xml.bind,org.uddi.sub_v3,javax.xml.ws,javax.xml.crypto.dsig.dom,javax.xml.crypto.dsig.keyinfo,javax.xml.transform.stream,javax.xml.crypto.dsig,javax.security.auth.x500,javax.xml.crypto.dsig.spec,javax.xml.datatype,org.w3._2000._09.xmldsig_,org.custommonkey.xmlunit,javax.jws,org.uddi.subr_v3"/>
+<p n="version" t="version" v="0.0.0"/>
+</capability>
+<require extend="false" filter="(&amp;(package=javax.jws)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.jws</require>
+<require extend="false" filter="(&amp;(package=javax.security.auth.x500)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.security.auth.x500</require>
+<require extend="false" filter="(&amp;(package=javax.xml.bind)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.xml.bind</require>
+<require extend="false" filter="(&amp;(package=javax.xml.crypto.dsig)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.xml.crypto.dsig</require>
+<require extend="false" filter="(&amp;(package=javax.xml.crypto.dsig.dom)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.xml.crypto.dsig.dom</require>
+<require extend="false" filter="(&amp;(package=javax.xml.crypto.dsig.keyinfo)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.xml.crypto.dsig.keyinfo</require>
+<require extend="false" filter="(&amp;(package=javax.xml.crypto.dsig.spec)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.xml.crypto.dsig.spec</require>
+<require extend="false" filter="(&amp;(package=javax.xml.datatype)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.xml.datatype</require>
+<require extend="false" filter="(&amp;(package=javax.xml.transform)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.xml.transform</require>
+<require extend="false" filter="(&amp;(package=javax.xml.transform.dom)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.xml.transform.dom</require>
+<require extend="false" filter="(&amp;(package=javax.xml.transform.stream)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.xml.transform.stream</require>
+<require extend="false" filter="(&amp;(package=javax.xml.ws)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.xml.ws</require>
+<require extend="false" filter="(&amp;(package=junit.framework)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package junit.framework</require>
+<require extend="false" filter="(&amp;(package=org.apache.commons.logging)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.commons.logging</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.jaxb)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.jaxb</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.v2.tck)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.v2.tck</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.v3.tck)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.v3.tck</require>
+<require extend="false" filter="(&amp;(package=org.custommonkey.xmlunit)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.custommonkey.xmlunit</require>
+<require extend="false" filter="(&amp;(package=org.junit)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.junit</require>
+<require extend="false" filter="(&amp;(package=org.uddi.api_v2)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.uddi.api_v2</require>
+<require extend="false" filter="(&amp;(package=org.uddi.api_v3)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.uddi.api_v3</require>
+<require extend="false" filter="(&amp;(package=org.uddi.sub_v3)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.uddi.sub_v3</require>
+<require extend="false" filter="(&amp;(package=org.uddi.subr_v3)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.uddi.subr_v3</require>
+<require extend="false" filter="(&amp;(package=org.uddi.v2_service)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.uddi.v2_service</require>
+<require extend="false" filter="(&amp;(package=org.uddi.v3_service)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.uddi.v3_service</require>
+<require extend="false" filter="(&amp;(package=org.w3._2000._09.xmldsig_)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.w3._2000._09.xmldsig_</require>
+<require extend="false" filter="(&amp;(package=org.w3c.dom)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.w3c.dom</require>
+</resource>
+<resource id="org.apache.juddi.client/3.2.1.SNAPSHOT" presentationname="jUDDI Client side Code" symbolicname="org.apache.juddi.client" uri="/C:/Users/MJTX/.m2/repository/org/apache/juddi/juddi-client/3.2.1-SNAPSHOT/juddi-client-3.2.1-SNAPSHOT.jar" version="3.2.1.SNAPSHOT">
+<description>jUDDI (pronounced "Judy") is an open source Java		implementation of the Universal Description, Discovery, and		Integration (UDDI) specification for Web Services.</description>
+<size>269847</size>
+<documentation>http://www.apache.org/</documentation>
+<license>http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+<category id="org.apache.juddi"/>
+<capability name="bundle">
+<p n="manifestversion" v="2"/>
+<p n="presentationname" v="jUDDI Client side Code"/>
+<p n="symbolicname" v="org.apache.juddi.client"/>
+<p n="version" t="version" v="3.2.1.SNAPSHOT"/>
+</capability>
+<capability name="package">
+<p n="package" v="org.apache.juddi.v3.annotations"/>
+<p n="uses" v="org.uddi.api_v3,org.apache.commons.logging,javax.jws,org.apache.juddi.api_v3,org.apache.juddi.v3.client.config,org.apache.juddi.v3.client"/>
+<p n="version" t="version" v="0.0.0"/>
+</capability>
+<capability name="package">
+<p n="package" v="org.apache.juddi.v3.client"/>
+<p n="uses" v="org.apache.juddi.v3_service,javax.xml.ws,javax.xml.namespace,org.uddi.v3_service,org.uddi.v2_service"/>
+<p n="version" t="version" v="0.0.0"/>
+</capability>
+<capability name="package">
+<p n="package" v="org.apache.juddi.v3.client.compare"/>
+<p n="uses" v="org.uddi.api_v3,javax.xml.datatype"/>
+<p n="version" t="version" v="0.0.0"/>
+</capability>
+<capability name="package">
+<p n="package" v="org.apache.juddi.v3.client.config"/>
+<p n="uses" v="org.apache.commons.logging,org.apache.commons.configuration.reloading,org.apache.juddi.api_v3,org.apache.juddi.v3.client.cryptor,org.apache.commons.configuration,org.uddi.api_v3,org.apache.juddi.v3.client.mapping,org.apache.juddi.v3.client.transport,org.uddi.sub_v3,javax.wsdl,org.uddi.v3_service,org.apache.juddi.v3_service,org.apache.juddi.v3.client.mapping.wsdl,javax.xml.ws,javax.xml.ws.soap,javax.servlet,javax.servlet.http,org.apache.juddi.v3.client.embed,org.apache.juddi.v3.client,org.apache.juddi.v3.annotations,javax.xml.namespace"/>
+<p n="version" t="version" v="0.0.0"/>
+</capability>
+<capability name="package">
+<p n="package" v="org.apache.juddi.v3.client.cryptor"/>
+<p n="uses" v="javax.crypto,javax.crypto.spec,org.apache.commons.logging,org.apache.juddi.v3.client,org.apache.commons.codec.binary,javax.xml.crypto.dsig.keyinfo,javax.xml.crypto.dsig.dom,javax.xml.transform.dom,sun.security.provider.certpath,org.w3c.dom,javax.xml.transform,javax.xml.crypto.dsig,javax.security.auth.x500,javax.xml.crypto.dsig.spec,javax.xml.bind"/>
+<p n="version" t="version" v="0.0.0"/>
+</capability>
+<capability name="package">
+<p n="package" v="org.apache.juddi.v3.client.embed"/>
+<p n="uses" v="org.apache.commons.logging,org.apache.juddi.v3.client"/>
+<p n="version" t="version" v="0.0.0"/>
+</capability>
+<capability name="package">
+<p n="package" v="org.apache.juddi.v3.client.ext.wsdm"/>
+<p n="version" t="version" v="0.0.0"/>
+</capability>
+<capability name="package">
+<p n="package" v="org.apache.juddi.v3.client.i18n"/>
+<p n="uses" v="org.uddi.api_v3"/>
+<p n="version" t="version" v="0.0.0"/>
+</capability>
+<capability name="package">
+<p n="package" v="org.apache.juddi.v3.client.mapping"/>
+<p n="uses" v="org.uddi.api_v3,org.apache.commons.logging,org.apache.juddi.v3.client.config,org.apache.juddi.v3.client.mapping.wsdl,javax.wsdl,javax.xml.namespace,org.uddi.api_v2,org.apache.juddi.api_v3,org.uddi.v2_service,javax.xml.soap,javax.xml.ws.soap,org.uddi.v3_service,org.apache.commons.lang,org.apache.http.conn.ssl,javax.net.ssl,org.apache.juddi.v3.client.transport,org.apache.juddi.v3.client,org.apache.commons.configuration,javax.jws,javax.xml.bind,org.uddi.subr_v3,org.uddi.sub_v3,javax.management,javax.xml.datatype,javax.xml.ws"/>
+<p n="version" t="version" v="0.0.0"/>
+</capability>
+<capability name="package">
+<p n="package" v="org.apache.juddi.v3.client.mapping.wadl"/>
+<p n="uses" v="javax.xml.bind.annotation,javax.xml.namespace,javax.xml.bind.annotation.adapters,org.uddi.api_v3,org.apache.juddi.v3.client.mapping,org.apache.http.conn.scheme,org.apache.commons.logging,org.apache.juddi.api_v3,org.apache.juddi.v3.client.config,org.apache.http.impl.conn,org.apache.http.client,org.apache.http.conn,org.apache.http.impl.client,javax.xml.bind,org.apache.http.client.methods,org.apache.http,org.apache.http.auth,org.apache.commons.configuration"/>
+<p n="version" t="version" v="0.0.0"/>
+</capability>
+<capability name="package">
+<p n="package" v="org.apache.juddi.v3.client.mapping.wsdl"/>
+<p n="uses" v="org.uddi.api_v3,org.apache.juddi.v3.client.transport,org.apache.juddi.v3.client.mapping,org.apache.commons.logging,org.apache.juddi.api_v3,org.apache.juddi.v3.client.config,org.w3c.dom,org.apache.juddi.jaxb,javax.xml.namespace,javax.wsdl,org.apache.juddi.v3.annotations,org.apache.commons.configuration,com.ibm.wsdl.factory,javax.wsdl.factory,javax.wsdl.xml,org.apache.juddi.v3.client,javax.wsdl.extensions.http,javax.wsdl.extensions.soap,javax.wsdl.extensions.soap12,org.apache.http.conn.scheme,org.apache.http.impl.conn,org.apache.http.client,org.xml.sax,org.apache.http.conn,org.apache.http.impl.client,org.apache.http.client.methods,org.apache.http,org.apache.http.auth"/>
+<p n="version" t="version" v="0.0.0"/>
+</capability>
+<capability name="package">
+<p n="package" v="org.apache.juddi.v3.client.subscription"/>
+<p n="uses" v="org.uddi.sub_v3,org.uddi.api_v3,org.apache.juddi.v3.client.transport,org.apache.commons.logging,javax.jws,org.apache.juddi.v3.client.config,org.uddi.subr_v3,org.uddi.v3_service,org.apache.juddi.v3.client.cryptor,javax.xml.ws,org.apache.commons.configuration"/>
+<p n="version" t="version" v="0.0.0"/>
+</capability>
+<capability name="package">
+<p n="package" v="org.apache.juddi.v3.client.transport"/>
+<p n="uses" v="org.apache.juddi.v3_service,org.apache.juddi.v3.client.config,org.uddi.v3_service,org.apache.commons.logging,org.apache.juddi.v3.client.cryptor,javax.xml.ws,org.apache.commons.configuration,org.apache.juddi.v3.client,org.apache.juddi.v3.client.transport.wrapper,org.uddi.v2_service,javax.naming"/>
+<p n="version" t="version" v="0.0.0"/>
+</capability>
+<capability name="package">
+<p n="package" v="org.apache.juddi.v3.client.transport.wrapper"/>
+<p n="uses" v="org.uddi.api_v3,org.apache.juddi.v3.client.mapping,org.apache.commons.logging,org.uddi.api_v2,org.uddi.v3_service,org.apache.juddi.v3.client,org.uddi.v2_service,javax.xml.ws,javax.xml.ws.soap,javax.xml.parsers,javax.xml.transform.dom,org.w3c.dom,org.apache.juddi.jaxb,javax.xml.transform,javax.xml.transform.stream,org.apache.juddi.v3.client.transport,org.apache.juddi.v3.client.config"/>
+<p n="version" t="version" v="0.0.0"/>
+</capability>
+<require extend="false" filter="(&amp;(package=com.ibm.wsdl.factory)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package com.ibm.wsdl.factory</require>
+<require extend="false" filter="(&amp;(package=javax.crypto)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.crypto</require>
+<require extend="false" filter="(&amp;(package=javax.crypto.spec)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.crypto.spec</require>
+<require extend="false" filter="(&amp;(package=javax.jws)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.jws</require>
+<require extend="false" filter="(&amp;(package=javax.management)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.management</require>
+<require extend="false" filter="(&amp;(package=javax.naming)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.naming</require>
+<require extend="false" filter="(&amp;(package=javax.net.ssl)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.net.ssl</require>
+<require extend="false" filter="(&amp;(package=javax.security.auth.x500)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.security.auth.x500</require>
+<require extend="false" filter="(&amp;(package=javax.servlet)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.servlet</require>
+<require extend="false" filter="(&amp;(package=javax.servlet.http)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.servlet.http</require>
+<require extend="false" filter="(&amp;(package=javax.wsdl)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.wsdl</require>
+<require extend="false" filter="(&amp;(package=javax.wsdl.extensions.http)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.wsdl.extensions.http</require>
+<require extend="false" filter="(&amp;(package=javax.wsdl.extensions.soap)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.wsdl.extensions.soap</require>
+<require extend="false" filter="(&amp;(package=javax.wsdl.extensions.soap12)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.wsdl.extensions.soap12</require>
+<require extend="false" filter="(&amp;(package=javax.wsdl.factory)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.wsdl.factory</require>
+<require extend="false" filter="(&amp;(package=javax.wsdl.xml)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.wsdl.xml</require>
+<require extend="false" filter="(&amp;(package=javax.xml.bind)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.xml.bind</require>
+<require extend="false" filter="(&amp;(package=javax.xml.bind.annotation)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.xml.bind.annotation</require>
+<require extend="false" filter="(&amp;(package=javax.xml.bind.annotation.adapters)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.xml.bind.annotation.adapters</require>
+<require extend="false" filter="(&amp;(package=javax.xml.crypto.dsig)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.xml.crypto.dsig</require>
+<require extend="false" filter="(&amp;(package=javax.xml.crypto.dsig.dom)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.xml.crypto.dsig.dom</require>
+<require extend="false" filter="(&amp;(package=javax.xml.crypto.dsig.keyinfo)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.xml.crypto.dsig.keyinfo</require>
+<require extend="false" filter="(&amp;(package=javax.xml.crypto.dsig.spec)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.xml.crypto.dsig.spec</require>
+<require extend="false" filter="(&amp;(package=javax.xml.datatype)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.xml.datatype</require>
+<require extend="false" filter="(&amp;(package=javax.xml.namespace)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.xml.namespace</require>
+<require extend="false" filter="(&amp;(package=javax.xml.parsers)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.xml.parsers</require>
+<require extend="false" filter="(&amp;(package=javax.xml.soap)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.xml.soap</require>
+<require extend="false" filter="(&amp;(package=javax.xml.transform)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.xml.transform</require>
+<require extend="false" filter="(&amp;(package=javax.xml.transform.dom)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.xml.transform.dom</require>
+<require extend="false" filter="(&amp;(package=javax.xml.transform.stream)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.xml.transform.stream</require>
+<require extend="false" filter="(&amp;(package=javax.xml.ws)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.xml.ws</require>
+<require extend="false" filter="(&amp;(package=javax.xml.ws.soap)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.xml.ws.soap</require>
+<require extend="false" filter="(&amp;(package=org.apache.commons.codec.binary)(version&gt;=1.6.0))" multiple="false" name="package" optional="false">Import package org.apache.commons.codec.binary ;version=1.6.0</require>
+<require extend="false" filter="(&amp;(package=org.apache.commons.configuration)(version&gt;=1.9.0))" multiple="false" name="package" optional="false">Import package org.apache.commons.configuration ;version=1.9.0</require>
+<require extend="false" filter="(&amp;(package=org.apache.commons.configuration.reloading)(version&gt;=1.9.0))" multiple="false" name="package" optional="false">Import package org.apache.commons.configuration.reloading ;version=1.9.0</require>
+<require extend="false" filter="(&amp;(package=org.apache.commons.lang)(version&gt;=2.6.0))" multiple="false" name="package" optional="false">Import package org.apache.commons.lang ;version=2.6.0</require>
+<require extend="false" filter="(&amp;(package=org.apache.commons.logging)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.commons.logging</require>
+<require extend="false" filter="(&amp;(package=org.apache.http)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.http</require>
+<require extend="false" filter="(&amp;(package=org.apache.http.auth)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.http.auth</require>
+<require extend="false" filter="(&amp;(package=org.apache.http.client)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.http.client</require>
+<require extend="false" filter="(&amp;(package=org.apache.http.client.methods)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.http.client.methods</require>
+<require extend="false" filter="(&amp;(package=org.apache.http.conn)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.http.conn</require>
+<require extend="false" filter="(&amp;(package=org.apache.http.conn.scheme)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.http.conn.scheme</require>
+<require extend="false" filter="(&amp;(package=org.apache.http.conn.ssl)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.http.conn.ssl</require>
+<require extend="false" filter="(&amp;(package=org.apache.http.impl.client)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.http.impl.client</require>
+<require extend="false" filter="(&amp;(package=org.apache.http.impl.conn)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.http.impl.conn</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.api_v3)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.api_v3</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.jaxb)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.jaxb</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.v3.annotations)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.v3.annotations</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.v3.client)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.v3.client</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.v3.client.compare)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.v3.client.compare</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.v3.client.config)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.v3.client.config</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.v3.client.cryptor)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.v3.client.cryptor</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.v3.client.embed)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.v3.client.embed</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.v3.client.ext.wsdm)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.v3.client.ext.wsdm</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.v3.client.i18n)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.v3.client.i18n</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.v3.client.mapping)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.v3.client.mapping</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.v3.client.mapping.wadl)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.v3.client.mapping.wadl</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.v3.client.mapping.wsdl)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.v3.client.mapping.wsdl</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.v3.client.subscription)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.v3.client.subscription</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.v3.client.transport)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.v3.client.transport</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.v3.client.transport.wrapper)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.v3.client.transport.wrapper</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.v3_service)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.v3_service</require>
+<require extend="false" filter="(&amp;(package=org.uddi.api_v2)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.uddi.api_v2</require>
+<require extend="false" filter="(&amp;(package=org.uddi.api_v3)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.uddi.api_v3</require>
+<require extend="false" filter="(&amp;(package=org.uddi.sub_v3)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.uddi.sub_v3</require>
+<require extend="false" filter="(&amp;(package=org.uddi.subr_v3)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.uddi.subr_v3</require>
+<require extend="false" filter="(&amp;(package=org.uddi.v2_service)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.uddi.v2_service</require>
+<require extend="false" filter="(&amp;(package=org.uddi.v3_service)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.uddi.v3_service</require>
+<require extend="false" filter="(&amp;(package=org.w3c.dom)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.w3c.dom</require>
+<require extend="false" filter="(&amp;(package=org.xml.sax)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.xml.sax</require>
+<require extend="false" filter="(&amp;(package=sun.security.provider.certpath)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package sun.security.provider.certpath</require>
+</resource>
+<resource id="org.apache.juddi.uddi-migration-tool/3.2.1.SNAPSHOT" presentationname="UDDI Migration tool" symbolicname="org.apache.juddi.uddi-migration-tool" uri="/C:/Users/MJTX/.m2/repository/org/apache/juddi/uddi-migration-tool/3.2.1-SNAPSHOT/uddi-migration-tool-3.2.1-SNAPSHOT.jar" version="3.2.1.SNAPSHOT">
+<description>jUDDI (pronounced "Judy") is an open source Java		implementation of the Universal Description, Discovery, and		Integration (UDDI) specification for Web Services.</description>
+<size>24402</size>
+<documentation>http://www.apache.org/</documentation>
+<license>http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+<category id="org.apache.juddi"/>
+<capability name="bundle">
+<p n="manifestversion" v="2"/>
+<p n="presentationname" v="UDDI Migration tool"/>
+<p n="symbolicname" v="org.apache.juddi.uddi-migration-tool"/>
+<p n="version" t="version" v="3.2.1.SNAPSHOT"/>
+</capability>
+<capability name="package">
+<p n="package" v="org.apache.juddi.v3.migration.tool"/>
+<p n="uses" v="org.apache.commons.cli,org.uddi.api_v3,org.uddi.v3_service,org.apache.juddi.v3_service,org.apache.juddi.v3.client.transport,org.apache.juddi.api_v3,org.apache.juddi.v3.client.config,javax.xml.bind"/>
+<p n="version" t="version" v="0.0.0"/>
+</capability>
+<require extend="false" filter="(&amp;(package=javax.xml.bind)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.xml.bind</require>
+<require extend="false" filter="(&amp;(package=org.apache.commons.cli)(version&gt;=1.2.0))" multiple="false" name="package" optional="false">Import package org.apache.commons.cli ;version=1.2.0</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.api_v3)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.api_v3</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.v3.client.config)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.v3.client.config</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.v3.client.transport)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.v3.client.transport</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.v3.migration.tool)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.v3.migration.tool</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.v3_service)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.v3_service</require>
+<require extend="false" filter="(&amp;(package=org.uddi.api_v3)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.uddi.api_v3</require>
+<require extend="false" filter="(&amp;(package=org.uddi.v3_service)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.uddi.v3_service</require>
+</resource>
+<resource id="Untitled--1538442544/0.0.0" presentationname="UDDI Migration tool" symbolicname="Untitled--1538442544" uri="/C:/Users/MJTX/.m2/repository/org/apache/juddi/uddi-migration-tool/3.2.1-SNAPSHOT/uddi-migration-tool-3.2.1-SNAPSHOT-jar-with-dependencies.jar" version="0.0.0">
+<description>jUDDI (pronounced "Judy") is an open source Java
+		implementation of the Universal Description, Discovery, and
+		Integration (UDDI) specification for Web Services.</description>
+<size>3300609</size>
+<documentation>http://juddi.apache.org/uddi-migration-tool/</documentation>
+<license>org.apache.maven.model.License@6943aef6;</license>
+<category id="org.apache.juddi"/>
+<capability name="bundle">
+<p n="manifestversion" v="2"/>
+<p n="presentationname" v="UDDI Migration tool"/>
+<p n="symbolicname" v="Untitled--1538442544"/>
+<p n="version" t="version" v="0.0.0"/>
+</capability>
+</resource>
+<resource id="org.apache.juddi.juddi-core/3.2.1.SNAPSHOT" presentationname="jUDDI Core Services" symbolicname="org.apache.juddi.juddi-core" uri="/C:/Users/MJTX/.m2/repository/org/apache/juddi/juddi-core/3.2.1-SNAPSHOT/juddi-core-3.2.1-SNAPSHOT.jar" version="3.2.1.SNAPSHOT">
+<description>jUDDI (pronounced "Judy") is an open source Java		implementation of the Universal Description, Discovery, and		Integration (UDDI) specification for Web Services.</description>
+<size>494869</size>
+<documentation>http://www.apache.org/</documentation>
+<license>http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+<category id="org.apache.juddi"/>
+<capability name="bundle">
+<p n="manifestversion" v="2"/>
+<p n="presentationname" v="jUDDI Core Services"/>
+<p n="symbolicname" v="org.apache.juddi.juddi-core"/>
+<p n="version" t="version" v="3.2.1.SNAPSHOT"/>
+</capability>
+<capability name="package">
+<p n="package" v="org.apache.juddi.cryptor"/>
+<p n="uses:" v="org.apache.juddi.config,org.apache.commons.logging,org.apache.juddi,org.apache.juddi.v3.client.cryptor,org.apache.commons.configuration"/>
+<p n="version" t="version" v="0.0.0"/>
+</capability>
+<capability name="package">
+<p n="package" v="org.apache.juddi.api.util"/>
+<p n="version" t="version" v="0.0.0"/>
+</capability>
+<capability name="package">
+<p n="package" v="org.apache.juddi.query"/>
+<p n="uses:" v="org.uddi.api_v3,org.apache.juddi.config,org.apache.commons.logging,org.apache.juddi.model,javax.persistence,org.uddi.v3_service,org.apache.commons.configuration,org.apache.juddi.query.util"/>
+<p n="version" t="version" v="0.0.0"/>
+</capability>
+<capability name="package">
+<p n="package" v="org.apache.juddi.subscription.notify"/>
+<p n="uses:" v="org.uddi.api_v3,org.apache.commons.logging,org.apache.juddi.cryptor,org.uddi.sub_v3,javax.mail.internet,org.apache.juddi.model,javax.xml.namespace,org.apache.juddi.v3.client,javax.naming,org.apache.juddi.api_v3,javax.crypto,org.uddi.subr_v3,org.apache.juddi.jaxb,org.uddi.v3_service,org.apache.juddi.config,org.apache.juddi,org.apache.juddi.v3.client.cryptor,javax.mail,javax.xml.bind,javax.xml.ws,org.apache.commons.configuration"/>
+<p n="version" t="version" v="0.0.0"/>
+</capability>
+<capability name="package">
+<p n="package" v="org.apache.juddi.api.impl"/>
+<p n="uses:" v="org.uddi.custody_v3,org.uddi.api_v3,javax.annotation,org.uddi.api_v2,org.apache.commons.logging,org.apache.juddi.api.util,org.apache.juddi.query,javax.jws,org.apache.commons.collections,org.uddi.sub_v3,javax.management,org.apache.juddi.model,org.apache.juddi.query.util,javax.xml.ws.handler,org.apache.juddi.subscription,org.apache.juddi.mapping,javax.persistence,org.apache.juddi.v3.client.mapping,org.uddi.repl_v3,org.apache.juddi.v3.client.transport,org.apache.juddi.api_v3,org.apache.juddi.v3.client.config,org.uddi.vs_v3,org.uddi.subr_v3,org.apache.juddi.jaxb,javax.xml.datatype,org.apache.juddi.validation,org.uddi.v3_service,org.apache.juddi.v3.error,org.apache.juddi.v3_service,org.apache.juddi.config,org.apache.juddi,org.uddi.v2_service,javax.xml.bind,javax.xml.ws,org.apache.commons.configuration,org.apache.juddi.v3.auth,javax.servlet.http"/>
+<p n="version" t="version" v="0.0.0"/>
+</capability>
+<capability name="package">
+<p n="package" v="org.apache.juddi.model"/>
+<p n="uses:" v="org.apache.juddi.config,org.apache.commons.lang.builder,javax.persistence,org.apache.commons.configuration,org.uddi.v3_service,org.apache.juddi.query.util,org.apache.juddi.validation"/>
+<p n="version" t="version" v="0.0.0"/>
+</capability>
+<capability name="package">
+<p n="package" v="org.apache.juddi.v3.error"/>
+<p n="uses:" v="org.uddi.api_v3,org.apache.juddi.config,org.uddi.v3_service"/>
+<p n="version" t="version" v="0.0.0"/>
+</capability>
+<capability name="package">
+<p n="package" v="org.apache.juddi.validation"/>
+<p n="uses:" v="org.uddi.api_v3,org.uddi.custody_v3,org.uddi.api_v2,org.apache.commons.logging,org.apache.juddi.query,org.uddi.sub_v3,org.apache.juddi.api.impl,org.apache.juddi.model,org.apache.juddi.query.util,org.apache.juddi.mapping,javax.persistence,org.apache.juddi.keygen,org.apache.juddi.v3.client.mapping,org.apache.juddi.v3.client.transport,org.apache.juddi.api_v3,org.uddi.subr_v3,javax.xml.datatype,org.apache.juddi.v3.error,org.uddi.v3_service,org.apache.juddi.config,org.uddi.v2_service,javax.xml.ws,org.apache.commons.configuration"/>
+<p n="version" t="version" v="0.0.0"/>
+</capability>
+<capability name="package">
+<p n="package" v="org.apache.juddi.query.util"/>
+<p n="uses:" v="org.uddi.api_v3,javax.persistence,org.apache.juddi.v3.error,org.uddi.v3_service"/>
+<p n="version" t="version" v="0.0.0"/>
+</capability>
+<capability name="package">
+<p n="package" v="org.apache.juddi.config"/>
+<p n="uses:" v="org.uddi.api_v3,org.apache.commons.logging,org.apache.juddi.query,org.apache.juddi.api.impl,org.apache.juddi.model,org.apache.juddi.v3.client,org.apache.juddi.query.util,org.apache.commons.configuration.reloading,org.apache.juddi.mapping,javax.persistence,org.apache.juddi.api_v3,org.uddi.v3_service,org.apache.juddi.v3.error,org.apache.juddi.validation,org.apache.juddi,javax.xml.transform,javax.xml.transform.stream,javax.xml.bind,org.apache.commons.configuration"/>
+<p n="version" t="version" v="0.0.0"/>
+</capability>
+<capability name="package">
+<p n="package" v="org.apache.juddi.subscription"/>
+<p n="uses:" v="org.uddi.api_v3,org.apache.commons.logging,org.apache.commons.collections,org.apache.juddi.api_v3,org.apache.juddi.subscription.notify,org.apache.juddi.api.impl,org.uddi.sub_v3,org.apache.juddi.model,org.uddi.subr_v3,org.apache.juddi.v3.error,javax.xml.datatype,org.uddi.v3_service,org.apache.juddi.config,org.apache.commons.collections.buffer,javax.persistence,org.apache.commons.configuration"/>
+<p n="version" t="version" v="0.0.0"/>
+</capability>
+<capability name="package">
+<p n="package" v="org.apache.juddi"/>
+<p n="uses:" v="javax.naming,org.apache.commons.logging,javax.xml.namespace,org.apache.juddi.config,org.apache.juddi.subscription,javax.xml.bind.annotation,org.apache.juddi.rmi,javax.xml.bind,org.apache.commons.configuration"/>
+<p n="version" t="version" v="0.0.0"/>
+</capability>
+<capability name="package">
+<p n="package" v="org.apache.juddi.mapping"/>
+<p n="uses:" v="org.uddi.api_v3,org.w3._2000._09.xmldsig_,org.apache.commons.logging,org.apache.juddi.api_v3,org.uddi.sub_v3,javax.xml.parsers,javax.xml.transform.dom,org.apache.juddi.model,org.apache.juddi.jaxb,org.w3c.dom,org.apache.juddi.v3.error,javax.xml.datatype,javax.xml.namespace,org.uddi.v3_service,org.apache.juddi.config,org.apache.juddi.subscription,org.w3c.dom.ls,javax.xml.transform,javax.xml.bind,org.apache.commons.configuration"/>
+<p n="version" t="version" v="0.0.0"/>
+</capability>
+<capability name="package">
+<p n="package" v="org.apache.juddi.rmi"/>
+<p n="uses:" v="org.uddi.api_v3,org.uddi.custody_v3,javax.naming,org.apache.commons.logging,org.apache.juddi.api_v3,org.uddi.sub_v3,org.apache.juddi.api.impl,org.uddi.subr_v3,org.uddi.v3_service,org.apache.juddi.v3_service,javax.xml.ws"/>
+<p n="version" t="version" v="0.0.0"/>
+</capability>
+<capability name="package">
+<p n="package" v="org.apache.juddi.keygen"/>
+<p n="uses:" v="org.apache.juddi.config,org.apache.commons.logging,org.apache.juddi,org.apache.juddi.v3.error,org.apache.commons.configuration,org.uddi.v3_service"/>
+<p n="version" t="version" v="0.0.0"/>
+</capability>
+<capability name="package">
+<p n="package" v="org.apache.juddi.v3.auth"/>
+<p n="uses:" v="javax.naming,org.apache.commons.logging,org.apache.juddi.cryptor,org.apache.commons.codec.digest,javax.naming.ldap,org.apache.juddi.model,javax.crypto,org.apache.juddi.v3.error,org.apache.juddi.config,org.apache.juddi,javax.xml.transform,javax.xml.bind.annotation,javax.xml.transform.stream,org.apache.juddi.v3.client.cryptor,javax.xml.bind,javax.persistence,org.apache.commons.configuration"/>
+<p n="version" t="version" v="0.0.0"/>
+</capability>
+<require extend="false" filter="(&amp;(package=javax.annotation)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.annotation</require>
+<require extend="false" filter="(&amp;(package=javax.crypto)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.crypto</require>
+<require extend="false" filter="(&amp;(package=javax.jws)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.jws</require>
+<require extend="false" filter="(&amp;(package=javax.mail)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.mail</require>
+<require extend="false" filter="(&amp;(package=javax.mail.internet)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.mail.internet</require>
+<require extend="false" filter="(&amp;(package=javax.management)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.management</require>
+<require extend="false" filter="(&amp;(package=javax.naming)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.naming</require>
+<require extend="false" filter="(&amp;(package=javax.naming.ldap)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.naming.ldap</require>
+<require extend="false" filter="(&amp;(package=javax.persistence)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.persistence</require>
+<require extend="false" filter="(&amp;(package=javax.servlet.http)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.servlet.http</require>
+<require extend="false" filter="(&amp;(package=javax.xml.bind)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.xml.bind</require>
+<require extend="false" filter="(&amp;(package=javax.xml.bind.annotation)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.xml.bind.annotation</require>
+<require extend="false" filter="(&amp;(package=javax.xml.datatype)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.xml.datatype</require>
+<require extend="false" filter="(&amp;(package=javax.xml.namespace)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.xml.namespace</require>
+<require extend="false" filter="(&amp;(package=javax.xml.parsers)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.xml.parsers</require>
+<require extend="false" filter="(&amp;(package=javax.xml.transform)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.xml.transform</require>
+<require extend="false" filter="(&amp;(package=javax.xml.transform.dom)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.xml.transform.dom</require>
+<require extend="false" filter="(&amp;(package=javax.xml.transform.stream)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.xml.transform.stream</require>
+<require extend="false" filter="(&amp;(package=javax.xml.ws)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.xml.ws</require>
+<require extend="false" filter="(&amp;(package=javax.xml.ws.handler)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.xml.ws.handler</require>
+<require extend="false" filter="(&amp;(package=org.apache.commons.codec.digest)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.commons.codec.digest</require>
+<require extend="false" filter="(&amp;(package=org.apache.commons.collections)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.commons.collections</require>
+<require extend="false" filter="(&amp;(package=org.apache.commons.collections.buffer)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.commons.collections.buffer</require>
+<require extend="false" filter="(&amp;(package=org.apache.commons.configuration)(version&gt;=1.9.0))" multiple="false" name="package" optional="false">Import package org.apache.commons.configuration ;version=1.9.0</require>
+<require extend="false" filter="(&amp;(package=org.apache.commons.configuration.reloading)(version&gt;=1.9.0))" multiple="false" name="package" optional="false">Import package org.apache.commons.configuration.reloading ;version=1.9.0</require>
+<require extend="false" filter="(&amp;(package=org.apache.commons.lang.builder)(version&gt;=2.6.0))" multiple="false" name="package" optional="false">Import package org.apache.commons.lang.builder ;version=2.6.0</require>
+<require extend="false" filter="(&amp;(package=org.apache.commons.logging)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.commons.logging</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.api.impl)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.api.impl</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.api.util)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.api.util</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.api_v3)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.api_v3</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.config)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.config</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.cryptor)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.cryptor</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.jaxb)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.jaxb</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.keygen)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.keygen</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.mapping)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.mapping</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.model)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.model</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.query)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.query</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.query.util)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.query.util</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.rmi)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.rmi</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.subscription)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.subscription</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.subscription.notify)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.subscription.notify</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.v3.auth)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.v3.auth</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.v3.client)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.v3.client</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.v3.client.config)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.v3.client.config</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.v3.client.cryptor)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.v3.client.cryptor</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.v3.client.mapping)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.v3.client.mapping</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.v3.client.transport)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.v3.client.transport</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.v3.error)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.v3.error</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.v3_service)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.v3_service</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.validation)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.validation</require>
+<require extend="false" filter="(&amp;(package=org.uddi.api_v2)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.uddi.api_v2</require>
+<require extend="false" filter="(&amp;(package=org.uddi.api_v3)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.uddi.api_v3</require>
+<require extend="false" filter="(&amp;(package=org.uddi.custody_v3)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.uddi.custody_v3</require>
+<require extend="false" filter="(&amp;(package=org.uddi.repl_v3)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.uddi.repl_v3</require>
+<require extend="false" filter="(&amp;(package=org.uddi.sub_v3)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.uddi.sub_v3</require>
+<require extend="false" filter="(&amp;(package=org.uddi.subr_v3)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.uddi.subr_v3</require>
+<require extend="false" filter="(&amp;(package=org.uddi.v2_service)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.uddi.v2_service</require>
+<require extend="false" filter="(&amp;(package=org.uddi.v3_service)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.uddi.v3_service</require>
+<require extend="false" filter="(&amp;(package=org.uddi.vs_v3)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.uddi.vs_v3</require>
+<require extend="false" filter="(&amp;(package=org.w3._2000._09.xmldsig_)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.w3._2000._09.xmldsig_</require>
+<require extend="false" filter="(&amp;(package=org.w3c.dom)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.w3c.dom</require>
+<require extend="false" filter="(&amp;(package=org.w3c.dom.ls)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.w3c.dom.ls</require>
+</resource>
+<resource id="org.apache.juddi.juddi-rest-cxf/3.2.1.SNAPSHOT" presentationname="jUDDI REST Services using Apache CXF" symbolicname="org.apache.juddi.juddi-rest-cxf" uri="/C:/Users/MJTX/.m2/repository/org/apache/juddi/juddi-rest-cxf/3.2.1-SNAPSHOT/juddi-rest-cxf-3.2.1-SNAPSHOT.jar" version="3.2.1.SNAPSHOT">
+<description>jUDDI (pronounced "Judy") is an open source Java		implementation of the Universal Description, Discovery, and		Integration (UDDI) specification for Web Services.</description>
+<size>18242</size>
+<documentation>http://www.apache.org/</documentation>
+<license>http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+<category id="org.apache.juddi"/>
+<capability name="bundle">
+<p n="manifestversion" v="2"/>
+<p n="presentationname" v="jUDDI REST Services using Apache CXF"/>
+<p n="symbolicname" v="org.apache.juddi.juddi-rest-cxf"/>
+<p n="version" t="version" v="3.2.1.SNAPSHOT"/>
+</capability>
+<capability name="package">
+<p n="package" v="org.apache.juddi.api.impl.rest"/>
+<p n="uses:" v="org.uddi.api_v3,org.apache.juddi.v3.client.mapping,org.apache.commons.logging,javax.ws.rs,org.apache.juddi.api_v3,org.apache.juddi.v3.client.config,org.uddi.sub_v3,org.apache.juddi.api.impl,org.apache.cxf.jaxrs.model.wadl,org.apache.juddi.v3.error,org.uddi.v3_service,javax.wsdl,org.apache.juddi.api_v3.rest,org.apache.juddi.v3.client.mapping.wsdl"/>
+<p n="version" t="version" v="0.0.0"/>
+</capability>
+<require extend="false" filter="(&amp;(package=javax.ws.rs)(version&gt;=2.0.0.m10))" multiple="false" name="package" optional="false">Import package javax.ws.rs ;version=2.0.0.m10</require>
+<require extend="false" filter="(&amp;(package=javax.wsdl)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.wsdl</require>
+<require extend="false" filter="(&amp;(package=org.apache.commons.logging)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.commons.logging</require>
+<require extend="false" filter="(&amp;(package=org.apache.cxf.jaxrs.model.wadl)(version&gt;=2.7.0))" multiple="false" name="package" optional="false">Import package org.apache.cxf.jaxrs.model.wadl ;version=2.7.0</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.api.impl)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.api.impl</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.api.impl.rest)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.api.impl.rest</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.api_v3)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.api_v3</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.api_v3.rest)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.api_v3.rest</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.v3.client.config)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.v3.client.config</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.v3.client.mapping)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.v3.client.mapping</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.v3.client.mapping.wsdl)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.v3.client.mapping.wsdl</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.v3.error)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.v3.error</require>
+<require extend="false" filter="(&amp;(package=org.uddi.api_v3)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.uddi.api_v3</require>
+<require extend="false" filter="(&amp;(package=org.uddi.sub_v3)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.uddi.sub_v3</require>
+<require extend="false" filter="(&amp;(package=org.uddi.v3_service)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.uddi.v3_service</require>
+</resource>
+<resource id="org.apache.juddi.juddi-core-openjpa/3.2.1.SNAPSHOT" presentationname="jUDDI Core - OpenJPA" symbolicname="org.apache.juddi.juddi-core-openjpa" uri="/C:/Users/MJTX/.m2/repository/org/apache/juddi/juddi-core-openjpa/3.2.1-SNAPSHOT/juddi-core-openjpa-3.2.1-SNAPSHOT.jar" version="3.2.1.SNAPSHOT">
+<description>This module enhances the JPA Entity classes from the juddi-core and reruns the same tests using OpenJPA.</description>
+<size>676592</size>
+<documentation>http://www.apache.org/</documentation>
+<license>http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+<category id="org.apache.juddi"/>
+<capability name="bundle">
+<p n="manifestversion" v="2"/>
+<p n="presentationname" v="jUDDI Core - OpenJPA"/>
+<p n="symbolicname" v="org.apache.juddi.juddi-core-openjpa"/>
+<p n="version" t="version" v="3.2.1.SNAPSHOT"/>
+</capability>
+<capability name="package">
+<p n="package" v="org.apache.juddi.cryptor"/>
+<p n="uses:" v="org.apache.juddi.config,org.apache.commons.logging,org.apache.juddi,org.apache.juddi.v3.client.cryptor,org.apache.commons.configuration"/>
+<p n="version" t="version" v="0.0.0"/>
+</capability>
+<capability name="package">
+<p n="package" v="org.apache.juddi.api.util"/>
+<p n="version" t="version" v="0.0.0"/>
+</capability>
+<capability name="package">
+<p n="package" v="org.apache.juddi.query"/>
+<p n="uses:" v="org.uddi.api_v3,org.apache.juddi.config,org.apache.commons.logging,org.apache.juddi.model,javax.persistence,org.uddi.v3_service,org.apache.commons.configuration,org.apache.juddi.query.util"/>
+<p n="version" t="version" v="0.0.0"/>
+</capability>
+<capability name="package">
+<p n="package" v="org.apache.juddi.subscription.notify"/>
+<p n="uses:" v="org.uddi.api_v3,org.apache.commons.logging,org.apache.juddi.cryptor,org.uddi.sub_v3,javax.mail.internet,org.apache.juddi.model,javax.xml.namespace,org.apache.juddi.v3.client,javax.naming,org.apache.juddi.api_v3,javax.crypto,org.uddi.subr_v3,org.apache.juddi.jaxb,org.uddi.v3_service,org.apache.juddi.config,org.apache.juddi,org.apache.juddi.v3.client.cryptor,javax.mail,javax.xml.bind,javax.xml.ws,org.apache.commons.configuration"/>
+<p n="version" t="version" v="0.0.0"/>
+</capability>
+<capability name="package">
+<p n="package" v="org.apache.juddi.api.impl"/>
+<p n="uses:" v="org.uddi.custody_v3,org.uddi.api_v3,javax.annotation,org.uddi.api_v2,org.apache.commons.logging,org.apache.juddi.api.util,org.apache.juddi.query,javax.jws,org.apache.commons.collections,org.uddi.sub_v3,javax.management,org.apache.juddi.model,org.apache.juddi.query.util,javax.xml.ws.handler,org.apache.juddi.subscription,org.apache.juddi.mapping,javax.persistence,org.apache.juddi.v3.client.mapping,org.uddi.repl_v3,org.apache.juddi.v3.client.transport,org.apache.juddi.api_v3,org.apache.juddi.v3.client.config,org.uddi.vs_v3,org.uddi.subr_v3,org.apache.juddi.jaxb,javax.xml.datatype,org.apache.juddi.validation,org.uddi.v3_service,org.apache.juddi.v3.error,org.apache.juddi.v3_service,org.apache.juddi.config,org.apache.juddi,org.uddi.v2_service,javax.xml.bind,javax.xml.ws,org.apache.commons.configuration,org.apache.juddi.v3.auth,javax.servlet.http"/>
+<p n="version" t="version" v="0.0.0"/>
+</capability>
+<capability name="package">
+<p n="package" v="org.apache.juddi.model"/>
+<p n="uses:" v="org.apache.openjpa.util,org.apache.openjpa.enhance,org.uddi.v3_service,org.apache.juddi.validation,org.apache.juddi.query.util,org.apache.juddi.config,org.apache.commons.lang.builder,javax.persistence,org.apache.commons.configuration"/>
+<p n="version" t="version" v="0.0.0"/>
+</capability>
+<capability name="package">
+<p n="package" v="org.apache.juddi.v3.error"/>
+<p n="uses:" v="org.uddi.api_v3,org.apache.juddi.config,org.uddi.v3_service"/>
+<p n="version" t="version" v="0.0.0"/>
+</capability>
+<capability name="package">
+<p n="package" v="org.apache.juddi.validation"/>
+<p n="uses:" v="org.uddi.api_v3,org.uddi.custody_v3,org.uddi.api_v2,org.apache.commons.logging,org.apache.juddi.query,org.uddi.sub_v3,org.apache.juddi.api.impl,org.apache.juddi.model,org.apache.juddi.query.util,org.apache.juddi.mapping,javax.persistence,org.apache.juddi.keygen,org.apache.juddi.v3.client.mapping,org.apache.juddi.v3.client.transport,org.apache.juddi.api_v3,org.uddi.subr_v3,javax.xml.datatype,org.apache.juddi.v3.error,org.uddi.v3_service,org.apache.juddi.config,org.uddi.v2_service,javax.xml.ws,org.apache.commons.configuration"/>
+<p n="version" t="version" v="0.0.0"/>
+</capability>
+<capability name="package">
+<p n="package" v="org.apache.juddi.query.util"/>
+<p n="uses:" v="org.uddi.api_v3,javax.persistence,org.apache.juddi.v3.error,org.uddi.v3_service"/>
+<p n="version" t="version" v="0.0.0"/>
+</capability>
+<capability name="package">
+<p n="package" v="org.apache.juddi.config"/>
+<p n="uses:" v="org.uddi.api_v3,org.apache.commons.logging,org.apache.juddi.query,org.apache.juddi.api.impl,org.apache.juddi.model,org.apache.juddi.v3.client,org.apache.juddi.query.util,org.apache.commons.configuration.reloading,org.apache.juddi.mapping,javax.persistence,org.apache.juddi.api_v3,org.uddi.v3_service,org.apache.juddi.v3.error,org.apache.juddi.validation,org.apache.juddi,javax.xml.transform,javax.xml.transform.stream,javax.xml.bind,org.apache.commons.configuration"/>
+<p n="version" t="version" v="0.0.0"/>
+</capability>
+<capability name="package">
+<p n="package" v="org.apache.juddi.subscription"/>
+<p n="uses:" v="org.uddi.api_v3,org.apache.commons.logging,org.apache.commons.collections,org.apache.juddi.api_v3,org.apache.juddi.subscription.notify,org.apache.juddi.api.impl,org.uddi.sub_v3,org.apache.juddi.model,org.uddi.subr_v3,org.apache.juddi.v3.error,javax.xml.datatype,org.uddi.v3_service,org.apache.juddi.config,org.apache.commons.collections.buffer,javax.persistence,org.apache.commons.configuration"/>
+<p n="version" t="version" v="0.0.0"/>
+</capability>
+<capability name="package">
+<p n="package" v="org.apache.juddi"/>
+<p n="uses:" v="javax.naming,org.apache.commons.logging,javax.xml.namespace,org.apache.juddi.config,org.apache.juddi.subscription,javax.xml.bind.annotation,org.apache.juddi.rmi,javax.xml.bind,org.apache.commons.configuration"/>
+<p n="version" t="version" v="0.0.0"/>
+</capability>
+<capability name="package">
+<p n="package" v="org.apache.juddi.mapping"/>
+<p n="uses:" v="org.uddi.api_v3,org.w3._2000._09.xmldsig_,org.apache.commons.logging,org.apache.juddi.api_v3,org.uddi.sub_v3,javax.xml.parsers,javax.xml.transform.dom,org.apache.juddi.model,org.apache.juddi.jaxb,org.w3c.dom,org.apache.juddi.v3.error,javax.xml.datatype,javax.xml.namespace,org.uddi.v3_service,org.apache.juddi.config,org.apache.juddi.subscription,org.w3c.dom.ls,javax.xml.transform,javax.xml.bind,org.apache.commons.configuration"/>
+<p n="version" t="version" v="0.0.0"/>
+</capability>
+<capability name="package">
+<p n="package" v="org.apache.juddi.rmi"/>
+<p n="uses:" v="org.uddi.api_v3,org.uddi.custody_v3,javax.naming,org.apache.commons.logging,org.apache.juddi.api_v3,org.uddi.sub_v3,org.apache.juddi.api.impl,org.uddi.subr_v3,org.uddi.v3_service,org.apache.juddi.v3_service,javax.xml.ws"/>
+<p n="version" t="version" v="0.0.0"/>
+</capability>
+<capability name="package">
+<p n="package" v="org.apache.juddi.keygen"/>
+<p n="uses:" v="org.apache.juddi.config,org.apache.commons.logging,org.apache.juddi,org.apache.juddi.v3.error,org.apache.commons.configuration,org.uddi.v3_service"/>
+<p n="version" t="version" v="0.0.0"/>
+</capability>
+<capability name="package">
+<p n="package" v="org.apache.juddi.v3.auth"/>
+<p n="uses:" v="javax.naming,org.apache.commons.logging,org.apache.juddi.cryptor,org.apache.commons.codec.digest,javax.naming.ldap,org.apache.juddi.model,javax.crypto,org.apache.juddi.v3.error,org.apache.juddi.config,org.apache.juddi,javax.xml.transform,javax.xml.bind.annotation,javax.xml.transform.stream,org.apache.juddi.v3.client.cryptor,javax.xml.bind,javax.persistence,org.apache.commons.configuration"/>
+<p n="version" t="version" v="0.0.0"/>
+</capability>
+<require extend="false" filter="(&amp;(package=javax.annotation)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.annotation</require>
+<require extend="false" filter="(&amp;(package=javax.crypto)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.crypto</require>
+<require extend="false" filter="(&amp;(package=javax.jws)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.jws</require>
+<require extend="false" filter="(&amp;(package=javax.mail)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.mail</require>
+<require extend="false" filter="(&amp;(package=javax.mail.internet)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.mail.internet</require>
+<require extend="false" filter="(&amp;(package=javax.management)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.management</require>
+<require extend="false" filter="(&amp;(package=javax.naming)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.naming</require>
+<require extend="false" filter="(&amp;(package=javax.naming.ldap)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.naming.ldap</require>
+<require extend="false" filter="(&amp;(package=javax.persistence)(version&gt;=1.1.0))" multiple="false" name="package" optional="false">Import package javax.persistence ;version=1.1.0</require>
+<require extend="false" filter="(&amp;(package=javax.servlet.http)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.servlet.http</require>
+<require extend="false" filter="(&amp;(package=javax.xml.bind)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.xml.bind</require>
+<require extend="false" filter="(&amp;(package=javax.xml.bind.annotation)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.xml.bind.annotation</require>
+<require extend="false" filter="(&amp;(package=javax.xml.datatype)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.xml.datatype</require>
+<require extend="false" filter="(&amp;(package=javax.xml.namespace)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.xml.namespace</require>
+<require extend="false" filter="(&amp;(package=javax.xml.parsers)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.xml.parsers</require>
+<require extend="false" filter="(&amp;(package=javax.xml.transform)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.xml.transform</require>
+<require extend="false" filter="(&amp;(package=javax.xml.transform.dom)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.xml.transform.dom</require>
+<require extend="false" filter="(&amp;(package=javax.xml.transform.stream)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.xml.transform.stream</require>
+<require extend="false" filter="(&amp;(package=javax.xml.ws)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.xml.ws</require>
+<require extend="false" filter="(&amp;(package=javax.xml.ws.handler)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package javax.xml.ws.handler</require>
+<require extend="false" filter="(&amp;(package=org.apache.commons.codec.digest)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.commons.codec.digest</require>
+<require extend="false" filter="(&amp;(package=org.apache.commons.collections)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.commons.collections</require>
+<require extend="false" filter="(&amp;(package=org.apache.commons.collections.buffer)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.commons.collections.buffer</require>
+<require extend="false" filter="(&amp;(package=org.apache.commons.configuration)(version&gt;=1.9.0))" multiple="false" name="package" optional="false">Import package org.apache.commons.configuration ;version=1.9.0</require>
+<require extend="false" filter="(&amp;(package=org.apache.commons.configuration.reloading)(version&gt;=1.9.0))" multiple="false" name="package" optional="false">Import package org.apache.commons.configuration.reloading ;version=1.9.0</require>
+<require extend="false" filter="(&amp;(package=org.apache.commons.lang.builder)(version&gt;=2.6.0))" multiple="false" name="package" optional="false">Import package org.apache.commons.lang.builder ;version=2.6.0</require>
+<require extend="false" filter="(&amp;(package=org.apache.commons.logging)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.commons.logging</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.api.impl)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.api.impl</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.api.util)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.api.util</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.api_v3)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.api_v3</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.config)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.config</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.cryptor)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.cryptor</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.jaxb)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.jaxb</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.keygen)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.keygen</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.mapping)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.mapping</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.model)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.model</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.query)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.query</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.query.util)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.query.util</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.rmi)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.rmi</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.subscription)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.subscription</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.subscription.notify)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.subscription.notify</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.v3.auth)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.v3.auth</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.v3.client)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.v3.client</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.v3.client.config)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.v3.client.config</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.v3.client.cryptor)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.v3.client.cryptor</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.v3.client.mapping)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.v3.client.mapping</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.v3.client.transport)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.v3.client.transport</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.v3.error)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.v3.error</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.v3_service)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.v3_service</require>
+<require extend="false" filter="(&amp;(package=org.apache.juddi.validation)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.apache.juddi.validation</require>
+<require extend="false" filter="(&amp;(package=org.apache.openjpa.enhance)(version&gt;=2.2.0))" multiple="false" name="package" optional="false">Import package org.apache.openjpa.enhance ;version=2.2.0</require>
+<require extend="false" filter="(&amp;(package=org.apache.openjpa.util)(version&gt;=2.2.0))" multiple="false" name="package" optional="false">Import package org.apache.openjpa.util ;version=2.2.0</require>
+<require extend="false" filter="(&amp;(package=org.uddi.api_v2)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.uddi.api_v2</require>
+<require extend="false" filter="(&amp;(package=org.uddi.api_v3)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.uddi.api_v3</require>
+<require extend="false" filter="(&amp;(package=org.uddi.custody_v3)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.uddi.custody_v3</require>
+<require extend="false" filter="(&amp;(package=org.uddi.repl_v3)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.uddi.repl_v3</require>
+<require extend="false" filter="(&amp;(package=org.uddi.sub_v3)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.uddi.sub_v3</require>
+<require extend="false" filter="(&amp;(package=org.uddi.subr_v3)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.uddi.subr_v3</require>
+<require extend="false" filter="(&amp;(package=org.uddi.v2_service)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.uddi.v2_service</require>
+<require extend="false" filter="(&amp;(package=org.uddi.v3_service)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.uddi.v3_service</require>
+<require extend="false" filter="(&amp;(package=org.uddi.vs_v3)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.uddi.vs_v3</require>
+<require extend="false" filter="(&amp;(package=org.w3._2000._09.xmldsig_)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.w3._2000._09.xmldsig_</require>
+<require extend="false" filter="(&amp;(package=org.w3c.dom)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.w3c.dom</require>
+<require extend="false" filter="(&amp;(package=org.w3c.dom.ls)(version&gt;=0.0.0))" multiple="false" name="package" optional="false">Import package org.w3c.dom.ls</require>
+</resource>
+</repository>

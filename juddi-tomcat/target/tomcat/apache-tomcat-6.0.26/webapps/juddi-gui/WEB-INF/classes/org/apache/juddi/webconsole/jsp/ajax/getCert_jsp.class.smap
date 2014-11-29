@@ -1,0 +1,10 @@
+SMAP
+getCert_jsp.java
+JSP
+*S JSP
+*F
++ 0 getCert.jsp
+ajax/getCert.jsp
+*L
+6,31:55
+*E
