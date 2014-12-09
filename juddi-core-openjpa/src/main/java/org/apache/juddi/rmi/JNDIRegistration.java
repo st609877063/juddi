@@ -35,6 +35,8 @@ public class JNDIRegistration
 	public static final String UDDI_SUBSCRIPTION_LISTENER_SERVICE = JUDDI + "/UDDISubscriptionListenerService";
 	public static final String UDDI_CUSTODY_TRANSFER_SERVICE = JUDDI + "/UDDICustodyTransferService";
 	public static final String JUDDI_PUBLISHER_SERVICE  = JUDDI + "/JUDDIApiService";
+	public static final String OWL_S_INQUERY_SERVICE=JUDDI + "/OWL_SInquiryService";
+	public static final String OWL_S_Publication_SERVICE=JUDDI + "/OWL_SPublicationService";
 	
 	private UDDISecurityService securityService = null;
 	private UDDIPublicationService publicationService = null;
@@ -43,6 +45,9 @@ public class JNDIRegistration
 	private UDDISubscriptionListenerService subscriptionListenerService = null;
 	private UDDICustodyTransferService custodyTransferService = null;
 	private JUDDIApiService publisherService = null;
+	
+	private OWL_SInquiryService owl_SInquiryService=null;
+	private OWL_SPublicationService owl_SPublicationService=null;
 	
 	private Log log = LogFactory.getLog(this.getClass());
 	InitialContext context = null;
@@ -90,6 +95,18 @@ public class JNDIRegistration
 			custodyTransferService = new UDDICustodyTransferService(port);
 			if (log.isDebugEnabled()) log.debug("Setting " + UDDI_CUSTODY_TRANSFER_SERVICE + ", " + custodyTransferService.getClass());
 			juddiContext.bind(UDDI_CUSTODY_TRANSFER_SERVICE, custodyTransferService);
+			
+			owl_SInquiryService=new OWL_SInquiryService(port);
+			if(log.isDebugEnabled()){
+				log.debug("Setting "+ OWL_S_INQUERY_SERVICE + ", " + owl_SInquiryService.getClass() );
+			}
+			juddiContext.bind(OWL_S_INQUERY_SERVICE, owl_SInquiryService);
+			
+			owl_SPublicationService=new OWL_SPublicationService(port);
+			if(log.isDebugEnabled()){
+				log.debug("Setting "+ OWL_S_Publication_SERVICE + ", " + owl_SPublicationService.getClass() );
+			}
+			juddiContext.bind(OWL_S_Publication_SERVICE, owl_SInquiryService);
 			
 			publisherService = new JUDDIApiService(port);
 			if (log.isDebugEnabled()) log.debug("Setting " + JUDDI_PUBLISHER_SERVICE + ", " + publisherService.getClass());
@@ -144,6 +161,20 @@ public class JNDIRegistration
 			log.error(e.getMessage(),e);
 		}
 		publisherService = null;
+		
+		try{
+			context.unbind(OWL_S_INQUERY_SERVICE);
+		} catch(NamingException e){
+			log.error(e.getMessage(),e);
+		}
+		owl_SInquiryService=null;
+		try{
+			context.unbind(OWL_S_Publication_SERVICE);
+		} catch(NamingException e){
+			log.error(e.getMessage(),e);
+		}
+		owl_SPublicationService=null;
+		
 		try {
 			context.unbind(JUDDI);
 		} catch (NamingException e) {
