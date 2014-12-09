@@ -17,6 +17,7 @@
 
 package org.apache.juddi.api.impl;
 
+import java.rmi.RemoteException;
 import java.util.List;
 import java.util.UUID;
 

@@ -39,7 +39,9 @@ import org.uddi.api_v3.ServiceDetail;
 import org.uddi.api_v3.ServiceList;
 import org.uddi.api_v3.TModelDetail;
 import org.uddi.api_v3.TModelList;
+import org.uddi.v3_service.DispositionReportFaultMessage;
 import org.uddi.v3_service.UDDIInquiryPortType;
+
 /**
  * UDDIInquiryPortType wrapper so it can be exposed as a service over RMI.
  * 

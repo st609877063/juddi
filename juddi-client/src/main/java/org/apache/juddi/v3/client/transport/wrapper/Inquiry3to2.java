@@ -17,10 +17,12 @@ package org.apache.juddi.v3.client.transport.wrapper;
 
 import java.rmi.RemoteException;
 import java.util.Map;
+
 import javax.xml.ws.Binding;
 import javax.xml.ws.BindingProvider;
 import javax.xml.ws.EndpointReference;
 import javax.xml.ws.soap.SOAPFaultException;
+
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.apache.juddi.v3.client.UDDIServiceV2;
